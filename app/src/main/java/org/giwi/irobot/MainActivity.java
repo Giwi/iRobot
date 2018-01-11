@@ -1,6 +1,7 @@
 package org.giwi.irobot;
 
 import android.Manifest;
+import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.bluetooth.BluetoothAdapter;
 import android.bluetooth.BluetoothGatt;
@@ -48,6 +49,7 @@ import java.util.List;
 /**
  * The type Main activity.
  */
+@SuppressLint("Registered")
 @EActivity(R.layout.activity_main)
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener, BTHandler, VoiceHandler {
 
@@ -69,13 +71,25 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
      */
     @ViewById(R.id.nav_view)
     NavigationView navigationView;
+    /**
+     * The Start reg.
+     */
     @ViewById
     Button start_reg;
+    /**
+     * The Text results.
+     */
     @ViewById
     TextView textResults;
 
+    /**
+     * The Code.
+     */
     @ViewById
     EditText code;
+    /**
+     * The Send cmd.
+     */
     @ViewById
     Button sendCmd;
     private static final int REQUEST_ENABLE_BT = 666;
@@ -140,6 +154,9 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         initVoiceRecognizer();
     }
 
+    /**
+     * Init voice recognizer.
+     */
     void initVoiceRecognizer() {
         speechRecognizer = getSpeechRecognizer();
         intent = new Intent(RecognizerIntent.ACTION_RECOGNIZE_SPEECH);
@@ -149,6 +166,11 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         intent.putExtra(RecognizerIntent.EXTRA_MAX_RESULTS, 5);
     }
 
+    /**
+     * Send command.
+     *
+     * @param command the command
+     */
     void sendCommand(String command) {
         if (carac != null) {
             try {
@@ -167,11 +189,19 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         }
     }
 
+    /**
+     * Send cmd.
+     */
     @Click(R.id.sendCmd)
     void sendCmd() {
         sendCommand(code.getText().toString());
     }
 
+    /**
+     * Start listening.
+     *
+     * @param v the v
+     */
     @Click(R.id.start_reg)
     void startListening(View v) {
         if (speechRecognizer != null) {
@@ -180,6 +210,11 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         speechRecognizer.startListening(intent);
     }
 
+    /**
+     * Gets speech recognizer.
+     *
+     * @return the speech recognizer
+     */
     SpeechRecognizer getSpeechRecognizer() {
         if (speechRecognizer == null) {
             speechRecognizer = SpeechRecognizer.createSpeechRecognizer(this);
@@ -310,6 +345,11 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         }
     }
 
+    /**
+     * Looper.
+     *
+     * @param cmd the cmd
+     */
     @Background(id = "main", serial = "looper")
     void looper(String cmd) {
         if (!"halt".equals(cmd)) {
