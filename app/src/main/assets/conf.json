@@ -1,0 +1,214 @@
+{
+  "F1": {
+    "command": "580100000000",
+    "desc"   : "Forward 1"
+  },
+  "F2": {
+    "command": "580200000000",
+    "desc"   : "Forward 2"
+  },
+  "F3": {
+    "command": "580300000000",
+    "desc"   : "Forward 3"
+  },
+  "F4": {
+    "command": "580400000000",
+    "desc"   : "Forward 4"
+  },
+  "B1": {
+    "command": "580500000000",
+    "desc"   : "Backward 1"
+  },
+  "B2": {
+    "command": "580600000000",
+    "desc"   : "Backward 2"
+  },
+  "B3": {
+    "command": "580700000000",
+    "desc"   : "Backward 3"
+  },
+  "B4": {
+    "command": "580800000000",
+    "desc"   : "Backward 4"
+  },
+  "L1": {
+    "command": "580900000000",
+    "desc"   : "Left 1"
+  },
+  "L2": {
+    "command": "580a00000000",
+    "desc"   : "Left 2"
+  },
+  "L3": {
+    "command": "580b00000000",
+    "desc"   : "Left 3"
+  },
+  "L4": {
+    "command": "580c00000000",
+    "desc"   : "Left 4"
+  },
+  "R1": {
+    "command": "580d00000000",
+    "desc"   : "Right 1"
+  },
+  "R2": {
+    "command": "580e00000000",
+    "desc"   : "Right 2"
+  },
+  "R3": {
+    "command": "580f00000000",
+    "desc"   : "Right 3"
+  },
+  "R4": {
+    "command": "581000000000",
+    "desc"   : "Right 4"
+  },
+  "D1": {
+    "command": "584100000000",
+    "desc"   : "Rock dance"
+  },
+  "D2": {
+    "command": "584200000000",
+    "desc"   : "Pop dance"
+  },
+  "D3": {
+    "command": "584300000000",
+    "desc"   : "Hip-hop dance"
+  },
+  "D4": {
+    "command": "582600000000",
+    "desc"   : "Techno dance"
+  },
+  "AO": {
+    "command": "58003c000000",
+    "desc"   : "Open arms"
+  },
+  "AC": {
+    "command": "58003d000000",
+    "desc"   : "Close Arms"
+  },
+  "CU": {
+    "command": "5800003e0000",
+    "desc"   : "Chest Up"
+  },
+  "CD": {
+    "command": "5800003f0000",
+    "desc"   : "Chest Down"
+  },
+  "M1": {
+    "command": "580000001600",
+    "desc"   : "Rock"
+  },
+  "M2": {
+    "command": "580000001700",
+    "desc"   : "Pop"
+  },
+  "M3": {
+    "command": "580000001800",
+    "desc"   : "Hip-hop"
+  },
+  "M4": {
+    "command": "580000001900",
+    "desc"   : "Techno"
+  },
+  "S1": {
+    "command": "580000001a00",
+    "desc"   : "ALARM"
+  },
+  "S2": {
+    "command": "580000001b00",
+    "desc"   : "ALIEN"
+  },
+  "S3": {
+    "command": "580000001c00",
+    "desc"   : "BIP"
+  },
+  "S4": {
+    "command": "580000001d00",
+    "desc"   : "LAUGH"
+  },
+  "S5": {
+    "command": "580000001e00",
+    "desc"   : "CARTOON"
+  },
+  "S6": {
+    "command": "580000001f00",
+    "desc"   : "COMPUTER"
+  },
+  "S7": {
+    "command": "580000002000",
+    "desc"   : "BUZZ"
+  },
+  "S8": {
+    "command": "580000002100",
+    "desc"   : "ELECTRONICS"
+  },
+  "S9": {
+    "command": "580000002200",
+    "desc"   : "ERROR"
+  },
+  "S10": {
+    "command": "580000002300",
+    "desc"   : "GO"
+  },
+  "S11": {
+    "command": "580000002400",
+    "desc"   : "LOADING"
+  },
+  "S12": {
+    "command": "580000002500",
+    "desc"   : "OH OH OH"
+  },
+  "S13": {
+    "command": "580000002600",
+    "desc"   : "PHONE"
+  },
+  "S14": {
+    "command": "580000002700",
+    "desc"   : "RADAR"
+  },
+  "S15": {
+    "command": "580000002800",
+    "desc"   : "RASPBERRY"
+  },
+  "S16": {
+    "command": "580000002900",
+    "desc"   : "SATELLITE"
+  },
+  "S17": {
+    "command": "580000002a00",
+    "desc"   : "BUBBLES"
+  },
+  "S18": {
+    "command": "580000002b00",
+    "desc"   : "LASER"
+  },
+  "S19": {
+    "command": "580000002c00",
+    "desc"   : "TELEPORT"
+  },
+  "S20": {
+    "command": "580000002d00",
+    "desc"   : "WEE"
+  },
+  "E1": {
+    "command": "580000000036",
+    "desc"   : "SURPRISED"
+  },
+  "E2": {
+    "command": "580000000037",
+    "desc"   : "SMILING"
+  },
+  "E3": {
+    "command": "580000000038",
+    "desc"   : "AMUSED"
+  },
+  "E4": {
+    "command": "580000000039",
+    "desc"   : "SAD"
+  },
+  "E5": {
+    "command": "58000000003a",
+    "desc"   : "ANGRY"
+  }
+}

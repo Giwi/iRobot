@@ -1,0 +1,56 @@
+{
+  "normal": {
+    "val": "2"
+  },
+  "lentement": {
+    "val": "1"
+  },
+  "vite": {
+    "val": "3"
+  },
+  "très vite": {
+    "val": "4"
+  },
+  "avance": {
+    "cmd": "F",
+    "speed": true
+  },
+  "recule": {
+    "cmd": "B",
+    "speed": true
+  },
+  "droite": {
+    "cmd": "R",
+    "speed": true
+  },
+  "gauche": {
+    "cmd": "L",
+    "speed": true
+  },
+  "stop": {
+    "cmd": "halt"
+  },
+  "lève": {
+    "cmd": "CU"
+  },
+  "baisse": {
+    "cmd": "CD"
+  },
+  "ouvre": {
+    "cmd": "AO"
+  },
+  "ferme": {
+    "cmd": "AC"
+  },
+  "musique": {
+    "cmd": "M",
+    "number": true
+  },
+  "son": {
+    "cmd": "S",
+    "number": true
+  },
+  "souris": {
+    "cmd": "E2"
+  }
+}
