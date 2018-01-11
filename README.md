@@ -1,3 +1,3 @@
 # iRobot
 
-Voice controlled Clementoni robot via BlueTooth
+Voice controlled Clementoni Evolution Robot via BlueTooth

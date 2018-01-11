@@ -299,7 +299,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                             }
                         }
                     }
-                    //looper(cmdStr);
+                    looper(cmdStr);
                     if(!"".equals(cmdStr)) {
                         textResults.setText(cmdStr);
                     }
